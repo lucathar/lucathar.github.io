@@ -1,12 +1,12 @@
 import type { SocialObjects } from "@/lib/types";
 
 export const SITE = {
-  website: "https://hyperoot.dev", // replace this with your deployed domain
-  author: "HYP3R00T",
-  desc: "Documentation template using Astro and Shadcn",
-  title: "CelestialDocs",
+  website: "https://lucathar.github.io", // replace this with your deployed domain
+  author: "Lucathar",
+  desc: "Documentation template using celestial",
+  title: "Lucathar CelestialDocs",
   ogImage: "og-image.jpg",
-  repo: "https://github.com/HYP3R00T/CelestialDocs",
+  repo: "https://github.com/lucathar/lucathar.github.io",
 };
 
 export const LOCALE = {
@@ -49,14 +49,14 @@ export const docconfig = {
 export const Socials: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/HYP3R00T/",
+    href: "https://github.com/lucathar/",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
   {
-    name: "Facebook",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on Facebook`,
+    name: "GitLab",
+    href: "https://gitlab.com/lucathar/",
+    linkTitle: `${SITE.title} on GitLab`,
     active: false,
   },
   {
@@ -73,7 +73,7 @@ export const Socials: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:rajesh@hyperoot.dev",
+    href: "mailto:drsamael@zohomail.cn",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
   },
@@ -139,7 +139,7 @@ export const Socials: SocialObjects = [
   },
   {
     name: "Mastodon",
-    href: "https://mastodon.social/@hyp3r00t",
+    href: "https://mstdn.plus/@luciferous",
     linkTitle: `${SITE.title} on Mastodon`,
     active: true,
   },
