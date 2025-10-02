@@ -15,10 +15,14 @@ export const LOCALE = {
 } as const;
 
 export const menu_items: { title: string; href: string }[] = [
-  // {
-  //   title: "Home",
-  //   href: "/",
-  // },
+   {
+     title: "Home",
+     href: "/",
+   },
+   {
+     title: "Blog",
+     href: "/blog",
+   },
 ];
 
 // Just works with top-level folders and files. For files, don't add extension as it looks for the slug, and not the file name.
@@ -54,88 +58,16 @@ export const Socials: SocialObjects = [
     active: true,
   },
   {
-    name: "GitLab",
-    href: "https://gitlab.com/lucathar/",
-    linkTitle: `${SITE.title} on GitLab`,
-    active: false,
-  },
-  {
-    name: "Instagram",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on Instagram`,
-    active: false,
-  },
-  {
-    name: "LinkedIn",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on LinkedIn`,
-    active: false,
-  },
-  {
     name: "Mail",
     href: "mailto:drsamael@zohomail.cn",
     linkTitle: `Send an email to ${SITE.title}`,
     active: true,
   },
   {
-    name: "Twitter",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on Twitter`,
-    active: false,
-  },
-  {
-    name: "Twitch",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on Twitch`,
-    active: false,
-  },
-  {
-    name: "YouTube",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on YouTube`,
-    active: false,
-  },
-  {
-    name: "WhatsApp",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on WhatsApp`,
-    active: false,
-  },
-  {
-    name: "Snapchat",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on Snapchat`,
-    active: false,
-  },
-  {
-    name: "Pinterest",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on Pinterest`,
-    active: false,
-  },
-  {
-    name: "Discord",
-    href: "https://discord.gg/tWZRBhaPhd",
-    linkTitle: `${SITE.title} on Discord`,
-    active: false,
-  },
-  {
     name: "GitLab",
-    href: "https://github.com/HYP3R00T/",
+    href: "https://github.com/lucathar/",
     linkTitle: `${SITE.title} on GitLab`,
-    active: false,
-  },
-  {
-    name: "Reddit",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on Reddit`,
-    active: false,
-  },
-  {
-    name: "Telegram",
-    href: "https://github.com/HYP3R00T/",
-    linkTitle: `${SITE.title} on Telegram`,
-    active: false,
+    active: true,
   },
   {
     name: "Mastodon",
